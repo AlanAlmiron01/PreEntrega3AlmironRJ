@@ -1,0 +1,77 @@
+
+export const getProducts = async () => {
+    return [
+      {
+        id: 1,
+        name: "Termo Stanley 1",
+        description: "Termo Stanley de acero inoxidable, 1L.",
+        price: 2500,
+        stock: 20,
+        image: "/assets/negro1.jpg",
+      },
+      {
+        id: 2,
+        name: "Termo Stanley 2",
+        description: "Termo Stanley de acero inoxidable, 1.3L.",
+        price: 3000,
+        stock: 15,
+        image: "/assets/negro2.webp",
+      },
+      {
+        id: 3,
+        name: "Termo Stanley 3",
+        description: "Termo Stanley de acero inoxidable, 1L.",
+        price: 2800,
+        stock: 18,
+        image: "/assets/negro3.png",
+      },
+      {
+        id: 4,
+        name: "Termo Stanley 4",
+        description: "Termo Stanley de acero inoxidable, 0.7L.",
+        price: 2200,
+        stock: 12,
+        image: "/assets/blanco1.jpg",
+      },
+      {
+        id: 5,
+        name: "Termo Stanley 5",
+        description: "Termo Stanley de acero inoxidable, 1L.",
+        price: 2700,
+        stock: 10,
+        image: "/assets/blanco2.jpg",
+      },
+      {
+        id: 6,
+        name: "Termo Stanley 6",
+        description: "Termo Stanley de acero inoxidable, 1.5L.",
+        price: 3200,
+        stock: 25,
+        image: "/assets/blanco3.webp",
+      },
+      {
+        id: 7,
+        name: "Termo Stanley 7",
+        description: "Termo Stanley de acero inoxidable, 0.8L.",
+        price: 2400,
+        stock: 30,
+        image: "/assets/verde1.jpg",
+      },
+      {
+        id: 8,
+        name: "Termo Stanley 8",
+        description: "Termo Stanley de acero inoxidable, 1.2L.",
+        price: 3100,
+        stock: 22,
+        image: "/assets/verde2.jpg",
+      },
+      {
+        id: 9,
+        name: "Termo Stanley 9",
+        description: "Termo Stanley de acero inoxidable, 0.9L.",
+        price: 2600,
+        stock: 28,
+        image: "/assets/verde3.webp",
+      },
+    ];
+  };

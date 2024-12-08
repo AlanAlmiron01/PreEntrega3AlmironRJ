@@ -1,0 +1,75 @@
+/* Estilo para el contenedor principal de la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b9b8c;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el logo de la tienda (nombre o ícono) */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* Estilo para los enlaces del menú */
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+  color: #f0c14b;
+}
+
+/* Estilo para el ícono del carrito */
+.navbar .cart-widget {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .cart-widget .cart-icon {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .cart-widget .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 5px 8px;
+}
+
+/* Botón de inicio para la página principal */
+.navbar .home-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar .home-button:hover {
+  color: #f0c14b;
+}

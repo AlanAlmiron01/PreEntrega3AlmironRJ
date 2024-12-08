@@ -1,0 +1,36 @@
+.add-item-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-item-button {
+  background-color: #3b9b8c; /* Verde natural */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.add-item-button:hover {
+  background-color: #338f7d; /* Verde más oscuro */
+  transform: scale(1.05);
+}
+
+.add-item-button:active {
+  transform: scale(0.98);
+}
+
+.add-item-button:disabled {
+  background-color: #d3d3d3; /* Gris claro */
+  cursor: not-allowed;
+}
+
+.add-item-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
